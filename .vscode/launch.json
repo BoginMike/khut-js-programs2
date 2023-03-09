@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "e:\\vs code\\khut-web-dev\\JS Fles\\hello-js\\src\\index.html"
+            "file": "e:\\vs code\\khut-web-dev\\js\\week9num2.html"
         }
     ]
 }

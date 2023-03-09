@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 4px;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: rgb(219, 219, 219);
+  padding: 2px;
+}
+
+#api-status {
+  margin-top: 100px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(219, 219, 219);
+  padding: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+.loaderCircle {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition: visibility 0.5s;
+}
+.bgLoader {
+  background-image: url(https://d11ldeo2m6pbdo.cloudfront.net/web-png/KHGreyLogopng.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  opacity: 0.4;
+}
+.loader {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.06);
+  border-right: 3px solid rgba(0, 0, 0, 0.18);
+  -webkit-animation: 2s linear infinite spin;
+  animation: 2s linear infinite spin;
+  box-sizing: border-box;
+  visibility: visible;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+
+.social-card {
+  position: relative;
+  width: 600px;
+  height: 180px;
+  border: 1px solid;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.post-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url('../img/joe-m.jpg');
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.post-title {
+  position: absolute;
+  top: 15px;
+  left: 90px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.post-user {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(83, 24, 146);
+}
+
+.post-content {
+  position: relative;
+  top: 80px;
+  font-size: 16px;
+}

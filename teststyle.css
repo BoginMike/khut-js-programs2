@@ -4,11 +4,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-html,
+.bclass {
+    background-color: rgb(231, 17, 17);
+  }
+
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: brown;
+  background-color: rgb(231, 17, 17);
 }
 
 #main {
